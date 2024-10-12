@@ -9,7 +9,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-  const [status, setStatus] = useState("");
   const [state, handleSubmit] = useForm("mrbgzkwj");
 
   const handleChange = (e: any) => {
