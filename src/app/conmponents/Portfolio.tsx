@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 const Portfolio = () => {
   return (
     <>
@@ -21,7 +21,7 @@ const Portfolio = () => {
       className="mt-16 grid divide-x divide-y  divide-gray-700 overflow-hidden  rounded-3xl border text-gray-600 border-gray-700 sm:grid-cols-2 lg:grid-cols-4  lg:divide-y-0 xl:grid-cols-4">
       <div className="group relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg  shadow-2xl hover:shadow-2xl hover:shadow-gray-600/10 //">
         <div className="relative space-y-8 py-12 p-8">
-          <img src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}}/>
+          <Image alt="project-img" src="https://www.svgrepo.com/show/164986/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}}/>
           <div className="space-y-2">
             <a href="https://goaeservices.com/" target="_blank" className="text-xl font-semibold text-white transition group-hover:text-secondary">goaeservices.com</a>
             <p className="text-gray-300">Educational platform for study abroad, built on WordPress from scratch</p>
@@ -30,16 +30,16 @@ const Portfolio = () => {
       </div>
       <div className="group relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg  shadow-2xl hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
-          <img src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}} />
+          <Image alt="project-img" src="https://www.svgrepo.com/show/120853/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}} />
           <div className="space-y-2">
             <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">Cheezious Frontend</h5>
-            <p className="text-gray-300">developed and designed fastfood site's layout using realtime api of cheezious brand</p>
+            <p className="text-gray-300">developed and designed fastfood site layout using realtime api of cheezious brand</p>
           </div>
         </div>
       </div>
       <div className="group relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg  shadow-2xl hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
-          <img src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}} />
+          <Image alt="project-img" src="https://www.svgrepo.com/show/120852/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}} />
           <div className="space-y-2">
             <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">Youtube Frontend</h5>
             <p className="text-gray-300">developed fully functional youtube frontend layout where user can see videos using youtube api</p>
@@ -48,7 +48,7 @@ const Portfolio = () => {
       </div>
       <div className="group relative bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg  shadow-2xl hover:shadow-2xl hover:shadow-gray-600/10">
         <div className="relative space-y-8 py-12 p-8">
-          <img src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}}/>
+          <Image alt="project-img" src="https://www.svgrepo.com/show/120850/logo.svg" loading="lazy" width="200" height="200"className="w-12 h-12 rounded-full" style={{color:'transparent'}}/>
           <div className="space-y-2">
             <h5 className="text-xl font-semibold text-white transition group-hover:text-secondary">job forum</h5>
             <p className="text-gray-300">Developed fully functional job seeking platform like indeed,user can login, and find latest jobs</p>

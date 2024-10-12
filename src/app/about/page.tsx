@@ -19,11 +19,11 @@ const About = () => {
 
             <div className="space-y-8">
                 <p className="text-base sm:leading-relaxed md:text-2xl">
-                I'm Abdur Rehman; you can call me AR. I'm a 22-year-old software engineer with a passion for creating innovative solutions for online businesses. I graduated with a degree in Computer Science from the University of Central Punjab and have been developing websites for three years. Throughout my career, I have gained extensive experience in web development technologies like Next.js, MongoDB, MySQL, and Express, as well as popular CRMs like WordPress and Wix.com. I thrive in challenging environments and enjoy collaborating with teams to develop cutting-edge software applications.
+                I am Abdur Rehman; you can call me AR. I am a 22-year-old software engineer with a passion for creating innovative solutions for online businesses. I graduated with a degree in Computer Science from the University of Central Punjab and have been developing websites for three years. Throughout my career, I have gained extensive experience in web development technologies like Next.js, MongoDB, MySQL, and Express, as well as popular CRMs like WordPress and Wix.com. I thrive in challenging environments and enjoy collaborating with teams to develop cutting-edge software applications.
                 </p>
 
                 <footer className="flex items-center space-x-4 md:space-x-0">
-                    <img className="w-12 h-12 rounded-full md:hidden" src="https://randomuser.me/api/portraits/men/68.jpg"/>
+                    <Image className="w-12 h-12 rounded-full md:hidden" src="https://randomuser.me/api/portraits/men/68.jpg" alt='profile image'/>
                     <span className="font-bold text-lg">Abdur Rehman Ashraf</span>
                 </footer>
             </div>
