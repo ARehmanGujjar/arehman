@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <>
     <main className="pt-0">
-        <section className="relative rounded-t-lg m-1 bg-red-400 bg-cover bg-center   text-white overflow-hidden" style={{ backgroundImage: "url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" }}>
+        <section className="relative bg-gradient-to-br from-blue-900 to-indigo-800 rounded-t-lg m-1 bg- bg-cover bg-center   text-white overflow-hidden" style={{ backgroundImage: "url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')" }}>
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="absolute inset-0 bg-cover bg-center" ></div>
             
@@ -75,4 +75,3 @@ const Banner = () => {
 
 export default Banner
 
-// bg-gradient-to-br from-blue-900 to-indigo-800

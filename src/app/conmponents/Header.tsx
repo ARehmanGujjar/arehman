@@ -1,3 +1,12 @@
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet"
+
 import Link from "next/link";
 import Image from "next/image";
 import logo2 from "@/app/public/logo2.png";
@@ -5,8 +14,11 @@ const Header = () => {
   return (
     <>
       <header className="lg:px-16 px-4  mb-2 mx-1  bg-white flex sm:flex-wrap justify-between sm:justify-between  items-center sm:py-1 py-1 shadow-lg rounded-lg">
+        
         <div className="flex justify-between w-1/2  items-center">
-          <div >
+        <Sheet>
+  <SheetTrigger>
+  <div>
           <label
             htmlFor="menu-toggle"
             className=" pointer-cursor flex md:hidden"
@@ -23,6 +35,39 @@ const Header = () => {
             </svg>
           </label>
         </div>
+  </SheetTrigger>
+  <SheetContent  side={'left'}>
+    <SheetHeader>
+      <SheetTitle><div className="flex justify-center items-center">
+
+<Image src={logo2} width={70} height={70} alt="logo" />
+</div></SheetTitle>
+      <SheetDescription >
+      <nav>
+            <ul className="flex-col items-center justify-between text-2xl text-gray-700 pt-4 md:pt-0">
+              <Link href="/" className="md:p-4 py-3 my-2 px-0 block border border-gray-200 rounded-lg">
+                Home
+              </Link>
+              <Link href="/about" className="md:p-4 my-2 py-3 px-0 block  border border-gray-200 rounded-lg">
+                About Me
+              </Link>
+              <Link href="/services" className="md:p-4 my-2 py-3 px-0 block border border-gray-200 rounded-lg">
+                Services
+              </Link>
+              <Link
+                href="/contact"
+                className="md:p-4 py-3 px-0 block my-2 md:mb-0 mb-2 border border-gray-200 rounded-lg"
+              >
+                Contact{" "}
+              </Link>
+            </ul>
+          </nav>
+      </SheetDescription>
+    </SheetHeader>
+  </SheetContent>
+</Sheet>
+
+          
         <div className="sm:flex-1">
 
           <Image src={logo2} width={80} height={80} alt="logo" />
