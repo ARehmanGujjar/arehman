@@ -11,7 +11,7 @@ const Contact = () => {
   });
   const [state, handleSubmit] = useForm("mrbgzkwj");
 
-  const handleChange = (e: any) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setformData({ ...formdata, [e.target.name]: e.target.value });
   };
   if (state.succeeded) {
@@ -123,7 +123,6 @@ const Contact = () => {
                   Send Message ✉
                 </button>
               </div>
-              <p>{status}</p>
             </form>
           </div>
         </div>

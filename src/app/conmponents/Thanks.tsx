@@ -3,7 +3,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 function Thanks() {
     const router = useRouter()
-    const handleClick = (e:any) => {
+    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
         e.preventDefault()
         router.push('/')
       }
