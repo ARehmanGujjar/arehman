@@ -1,3 +1,27 @@
+# Personal Portfolio Website using Next.js
+
+This is my personal portfolio website built using **Next.js**. The website includes pages like **Home**, **About**, and **Contact Us**, offering a glimpse into my skills, projects, and contact information. It is designed to be professional, modern, and responsive.
+
+Deployed at: [https://arehman.vercel.app/](https://arehman.vercel.app/)
+
+## Features:
+- **Home Page**: Brief introduction and highlights.
+- **About Page**: Information about my skills, experience, and background.
+- **Contact Us Page**: Simple contact form to reach out.
+- **Responsive Design**: Adapts to mobile, tablet, and desktop views.
+- **Next.js**: Built with **Next.js** for better performance and server-side rendering.
+
+## Technologies Used:
+- **Next.js**
+- **React**
+- **CSS/SCSS**
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ARehmanGujjar/arehman.git
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
